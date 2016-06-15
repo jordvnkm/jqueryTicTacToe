@@ -1,0 +1,63 @@
+
+.checked {
+  background: white;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 90px;
+}
+
+.loser {
+  color: red;
+}
+
+.winner {
+  background-color: green;
+  color: white;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-family: arial;
+  text-align: center;
+  font-size: 64px;
+}
+
+figure {
+  left: 38%;
+  top: 60%;
+  width: 360px;
+  margin-right: -50%;
+  position: absolute;
+  margin: auto;
+}
+
+li {
+  list-style-type: none;
+  width: 100px;
+  height: 100px;
+  background: grey;
+  /*padding: 50px;*/
+  border-right: 10px solid black;
+  border-bottom: 10px solid black;
+  border-top: 10px solid black;
+  border-left: 10px solid black;
+  float: left;
+}
+
+li:hover {
+  background: yellow;
+}
+
+ul {
+  width: 360px;
+  /*left: -30px;
+  position: absolute;*/
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
